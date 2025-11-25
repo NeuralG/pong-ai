@@ -58,4 +58,5 @@ python game.py
 -   $\epsilon_{start} = 1.00$
 
 Epsilon decays exponentially with the following formula:
-$$\epsilon_t = \epsilon_{\min} + (\epsilon_{\text{start}} - \epsilon_{\min}) \cdot e^{-(DecayRate) \cdot (NumberOfGames)}$$
+
+$$\epsilon_t = \epsilon_{\min} + (\epsilon_{\text{start}} - \epsilon_{\min}) \cdot e^{-D \cdot N}$$
